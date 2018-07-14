@@ -1,3 +1,35 @@
+## Git
+
+create a new branch
+```
+git checkout -b feature/somename
+```
+
+push changes to git
+
+```
+git add .
+
+git commit
+
+git push origin feature/somename
+```
+
+make a PR on git and merge changes
+
+then
+
+```
+git checkout master
+git pull origin master
+git branch -D feature/somename
+git remote prune origin
+```
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
