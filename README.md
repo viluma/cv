@@ -26,7 +26,18 @@ git branch -D feature/somename
 git remote prune origin
 ```
 
+check current branch status
+```
+git status
+```
 
+
+## Heroku
+
+push to heroku
+```
+git push heroku master
+```
 
 
 

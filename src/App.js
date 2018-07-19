@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
+
       <div style={{height: '300px', position: 'relative'}}>
     <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
         <Header transparent title="Vivian Machindano" style={{color: 'white'}}>
@@ -29,6 +30,7 @@ class App extends Component {
         <Content />
     </Layout>
 </div>
+
 
     );
   }
