@@ -1,0 +1,52 @@
+
+################
+      <div style={{height: '300px', position: 'relative'}}>
+    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+        <Header transparent title="Vivian Machindano" style={{color: 'white'}}>
+            <Navigation>
+                 <Link to="/Welcome">Welcome</Link>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/Blog">Blog</Link>
+                <Link to="/Portfolio">Portfolio</Link>
+            </Navigation>
+        </Header>
+        <Drawer title="Title">
+            <Navigation>
+                 <Link to="/Welcome">Welcome</Link>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/Blog">Blog</Link>
+                <Link to="/Portfolio">Portfolio</Link>
+            </Navigation>
+        </Drawer>
+        <Content />
+    </Layout>
+</div>
+
+
+exact path="/"
+
+TO WHOM IT MIGHT CONCERN
+
+My name is Vivian Seerup.
+
+I am 25 years old and from Beira, Mozambique. 2 years ago I relocated to Dragør, where I am currently living with my Danish husband and my 1 year old daughter.
+
+I have a bachelor degree in IT engineering from Zambeze university. My plan is to apply at ITU next year to finish my master degree within IT-project management.
+
+I read your job post for Office Assistant with much interest. The outlined work responsibilities match my personality and work experience. 
+
+I am a very outgoing and positive person. I am open to new challenges and I am very organized, disciplined and team oriented.. These qualities made me representative of the students in my class at University.
+
+While studying I held an internship at the Mozambique International Airport. As Assistant Technician I provided technical help to all departments in the airport. I organized food supplies, digital and physical files within the different sectors. I wrote daily reports to the management on equipment operation. Furthermore I had various miscellaneous tasks supporting the daily operation in the airport.
+
+This job would be a perfect opportunity for me as I find your company a very inspiring workplace. My daughter is starting in day care very soon and I would enjoy being a part of your organization.
+
+My Danish is not currently optimal, but I understand most and I am working very hard to get up to speed.
+
+I look forward to hearing from you.
+
+Thank you for your consideration.. 
+
+
+
+

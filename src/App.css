@@ -8,21 +8,23 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+ 
+  height: 850px;
   padding: 20px;
-  color: white;
+  color: red;
+  background-color: #202020;
 }
 
-.App-title {
-  font-size: 1.5em;
+
+
+.tamanho {
+  margin: 40px;
+  border: 5px dotted pink;
+  height: 300px; 
+  position: relative;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.aimagem {
+   background-color: #222;
+  
 }
