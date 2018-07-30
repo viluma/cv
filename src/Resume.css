@@ -1,32 +1,7 @@
-.card {
+
+.avisoo {
  
-  height: 600px; 
- background-image: url("./assets/cintia.jpg");}
-
-.carde {
-  margin-top: 100px;
-  margin-bottom: 5px;
-  height: 200px; 
-  text-align: center;
-height: 300px;
-font-family: Times New Roman
-, Helvetica, sans-serif;
-
-margin-right: 200px;
-margin-left: 200px;
-font-size: 16px;
-
-}
-
-img { background-image: linear-gradient(
-    rgba(0, 0, 0, 0.6),
-    transparent;)
-}
-
-
- .aviso {
- 
-   margin-top: 300px;
+   margin-top: 200px;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
 
@@ -35,35 +10,39 @@ color: white;
 font-size: 40px;
 
 }
-
-.si{color: white;
-	width: 100%;
-	 word-spacing: 5px;
-	 align-content: center;
-}
-
-.lo{width: 100%;
-color: red;
- letter-spacing: 20px;}
-
-.trabalho {
+.testo {
  
-   margin-top: 40px;
-    text-align: center;
-
-
-font-family: Times New Roman, Helvetica, sans-serif;
-color: black;
-font-size: 10px;
-}
-
-
-.titulos {
-  text-align: center;
-
+   
+  text-align: left;
+  margin: 100px;
 
 font-family: georgia, Helvetica, sans-serif;
-color: black;
-font-size: 16px;
-}
 
+font-size: 80px;
+
+}
+.res {
+ 
+   
+  text-align: right;
+  
+color:blue;
+font-family: georgia, Helvetica, sans-serif;
+
+font-size: 20px;
+
+}
+.button2 {
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange; /* Green */
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+     
+
+}
+.button2:hover {
+    background-color: orange; /* Green */
+    color: white;
+}

@@ -20,19 +20,20 @@ class App extends Component {
           
     <Layout fixedHeader>
 
-        <Header transparent title={<span><span >  </span><strong>Vivian Seerup</strong></span>}>
+        <Header transparent title={<span><span >  </span><strong><a href="/" class="titul">Vivian Seerup</a></strong></span>}>
 
-            <Navigation>
+            <Navigation >
                
-                <Link to= "/">Welcome</Link>
-                <Link to="/Resume">Resume</Link>
+                <Link to= "/" style={{ color: 'orange'
+                 }}>Welcome</Link>
+                <Link to="/Resume" >Resume</Link>
                 
             </Navigation>
             
 
         </Header>
         <Drawer title="Title">
-            <Navigation>
+            <Navigation >
                <Link to="/">Welcome</Link>
                 <Link to="/Resume">Resume</Link>
                 

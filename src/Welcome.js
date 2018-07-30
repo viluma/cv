@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Resume.css';
+import './Welcome.css';
 import { Parallax, Background } from 'react-parallax';
 import {Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton} from 'react-mdl'
 import Image from './assets/sound.png';
@@ -11,8 +11,8 @@ const MyComponent = () => (
 
   <div>
     <Parallax
-      blur={0.5}
-      bgImage={require('./assets/header.jpeg')}
+      blur={2}
+      bgImage={require('./assets/side.jpg')}
       bgImageAlt="the cat"
       strength={200}
       bgheight={'auto'}
@@ -22,7 +22,9 @@ const MyComponent = () => (
 
       <div style={{ height: '400px' }} >
 
-      <h1 class="aviso">LOOKING FOR A JUNIOR WEB DEVELOPER</h1> </div>
+      <h1 class="aviso">LOOKING FOR A JUNIOR WEB DEVELOPER?<br/><br/>
+      <a href="http://localhost:3000/Resume" > <button class="button1"  type="button">View Resume</button></a></h1> 
+      </div>
     </Parallax>
 
 </div>
@@ -49,7 +51,7 @@ During the studies, I worked a bit with php, java(Eclipse), C++, Matlab,
 <div>
      <Parallax
       blur={0.5}
-      bgImage={require('./assets/barco.jpg')}
+      bgImage={require('./assets/cpk1.jpg')}
       bgImageAlt="the cat"
       strength={200}
       bgheight={'auto'}
