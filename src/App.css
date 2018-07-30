@@ -28,3 +28,13 @@
    background-color: #222;
   
 }
+.titul{
+  text-decoration: none;
+  color: orange;
+}
+
+.navi:hover {
+     /* Green */
+    color: orange;
+}
+
