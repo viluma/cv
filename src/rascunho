@@ -1,26 +1,16 @@
+<p>Hi! My name is Vivian.  I am a 25 year old Web Developer with a 5 years bachelors degree in IT 
+engineering seeking new challenges.<br/> I am positive, organized and team oriented in the way I work.
 
-################
-      <div style={{height: '300px', position: 'relative'}}>
-    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-        <Header transparent title="Vivian Machindano" style={{color: 'white'}}>
-            <Navigation>
-                 <Link to="/Welcome">Welcome</Link>
-                <Link to="/Resume">Resume</Link>
-                <Link to="/Blog">Blog</Link>
-                <Link to="/Portfolio">Portfolio</Link>
-            </Navigation>
-        </Header>
-        <Drawer title="Title">
-            <Navigation>
-                 <Link to="/Welcome">Welcome</Link>
-                <Link to="/Resume">Resume</Link>
-                <Link to="/Blog">Blog</Link>
-                <Link to="/Portfolio">Portfolio</Link>
-            </Navigation>
-        </Drawer>
-        <Content />
-    </Layout>
-</div>
+My main focus has been React, Wordpress and Ruby on Rails.
+
+During my studies, I worked a with php, java(Eclipse), C++ & Matlab. <br/>
+
+As a recent Graduate, I'm looking forward to join the job market and use my skills.</p><br/>
+
+
+
+  <h1 class="aviso">LOOKING FOR A JUNIOR WEB DEVELOPER?<br/><br/>
+      <a href="http://www.viluma.dk/Resume" > <button class="button1"  type="button">View Resume</button></a></h1> 
 
 
 exact path="/"
