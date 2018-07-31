@@ -24,7 +24,7 @@ class App extends Component {
 
             <Navigation >
                
-                <Link to= "/" style={{ color: 'orange'
+                <Link to= "/" style={{ 
                  }}>Welcome</Link>
                 <Link to="/Resume" >Resume</Link>
                 
