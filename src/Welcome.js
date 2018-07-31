@@ -23,7 +23,7 @@ const MyComponent = () => (
       <div style={{ height: '400px' }} >
 
       <h1 class="aviso">LOOKING FOR A JUNIOR WEB DEVELOPER?<br/><br/>
-      <a href="http://localhost:3000/Resume" > <button class="button1"  type="button">View Resume</button></a></h1> 
+      <a href="http://www.viluma.dk/Resume" > <button class="button1"  type="button">View Resume</button></a></h1> 
       </div>
     </Parallax>
 
@@ -35,16 +35,14 @@ const MyComponent = () => (
 
 </strong> </p>
 
-<p>Hi, I’m Vivian. Nice to meet you.
+<p>Hi! My name is Vivian.  I am a 25 year old Web Developer with a 5 years bachelors degree in IT 
+engineering seeking new challenges. I am positive, organized and team oriented in the way I work. <br/>
 
-I am 25 years old Junior web developer with a 5 years bachelors degree in IT
-engineering seeking new challenges.
-I am positive, organized and team oriented in the
-way I work. My main focus has been React,
-Wordpress and Ruby on Rails. 
-During the studies, I worked a bit with php, java(Eclipse), C++, Matlab,
- what would make easier to quickly understand and learn the tools you a using at your company.</p>
-<p>  As a recente Graduate, i'm looking forward to show all my skills in this new carreer.</p><br/> <br/>
+My main focus has been React, Wordpress and Ruby on Rails.<br/>
+
+During my studies, I worked a with php, java(Eclipse), C++ & Matlab. <br/>
+
+As a recent Graduate, I'm looking forward to join the job market and use my skills.</p><br/> <br/>
   
 </div>
 
