@@ -5,6 +5,7 @@ import {Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu, Button, Ic
 import Image from './assets/sound.png';
 import Image1 from './assets/africa.png';
 import Image2 from './assets/portfolio.png';
+import Resume from './Resume';
 
 const MyComponent = () => (
   <div>
