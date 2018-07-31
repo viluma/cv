@@ -5,7 +5,7 @@ create a new branch
 git checkout -b feature/somename
 ```
 
-push changes to git
+push changes to github
 
 ```
 git add .
