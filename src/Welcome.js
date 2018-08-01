@@ -41,7 +41,7 @@ const MyComponent = () => (
 <p>Hi! My name is Vivian.  I am a 25 year old Web Developer with a 5 years bachelors degree in IT 
 engineering seeking new challenges.<br/> I am positive, organized and team oriented in the way I work.
 
-My main focus has been React, Wordpress and Ruby on Rails.
+My main focus has been React, Wordpress and Ruby on Rails.<br/>
 
 During my studies, I worked a with php, java(Eclipse), C++ & Matlab. <br/>
 
