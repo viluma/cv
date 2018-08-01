@@ -89,7 +89,7 @@ became a social worker. </p>
 
 <p > <h4><strong> LANGUAGES</strong></h4>
 *English- Read and Write<br/>
-*Portuguese-(Native Languagem)
+*Portuguese-(Native Language)
 
 </p>
   <p > <h4><strong>  HOBBIES</strong></h4>
