@@ -6,6 +6,7 @@ import Image from './assets/sound.png';
 import Image1 from './assets/africa.png';
 import Image2 from './assets/portfolio.png';
 import Resume from './Resume';
+import { Link } from 'react-router-dom';
 
 const MyComponent = () => (
   <div>
@@ -13,7 +14,7 @@ const MyComponent = () => (
   <div>
     <Parallax
       blur={2}
-      bgImage={require('./assets/side.jpg')}
+      bgImage={require('./assets/bg2.jpg')}
       bgImageAlt="the cat"
       strength={200}
       bgheight={'auto'}
@@ -23,7 +24,9 @@ const MyComponent = () => (
 
       <div style={{ height: '400px' }} >
 
-      <h1 class="aviso">LOOKING FOR A JUNIOR WEB DEVELOPER?</h1> 
+      <h1 class="aviso">LOOKING FOR A JUNIOR WEB DEVELOPER?<br/><br/>
+      <Link to="/Resume"> <button class="button1"  type="button">View Resume</button></Link></h1> 
+
       </div>
     </Parallax>
 
@@ -42,14 +45,16 @@ My main focus has been React, Wordpress and Ruby on Rails.
 
 During my studies, I worked a with php, java(Eclipse), C++ & Matlab. <br/>
 
-As a recent Graduate, I'm looking forward to join the job market and use my skills.</p><br/>
+As a recent Graduate, I'm looking forward to join the job market and use my skills.</p>
+<p class="">I'm available for work, get in touch!
+ </p><br/>
   
 </div>
-
+<div class="laranja">
 <div>
      <Parallax
       blur={0.5}
-      bgImage={require('./assets/cpk1.jpg')}
+      bgImage={require('./assets/card-project1.jpg')}
       bgImageAlt="the cat"
       strength={200}
       bgheight={'auto'}
@@ -62,7 +67,7 @@ As a recent Graduate, I'm looking forward to join the job market and use my skil
 
     <div class="trabalho">
 
-<div></div>
+
 <div><p><stromg class="titulos">PROJECTS </stromg></p></div>
 <div>
 
@@ -98,10 +103,9 @@ As a recent Graduate, I'm looking forward to join the job market and use my skil
   </div>
 
 
-<div><p class="">I'm available for work, get in touch
- </p></div>
 
 
+</div>
 </div>
     
 </div>
