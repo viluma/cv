@@ -8,7 +8,7 @@ import indexRoutes from "routes/index.jsx";
 import "assets/scss/material-kit-pro-react.css";
 
 
-require('dotenv').config()
+if (process.env.NODE_ENV === "development") require("dotenv").config();
 var hist = createBrowserHistory();
 
 ReactDOM.render(
