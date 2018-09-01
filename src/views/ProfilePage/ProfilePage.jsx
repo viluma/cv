@@ -33,6 +33,7 @@ import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearPr
 import Paginations from "components/Pagination/Pagination.jsx";
 import SectionProjects from "./Section/SectionProjects.jsx";
 import SectionFooter from "./Section/SectionFooter.jsx";
+import SectionSimilarStories from "./Section/SectionSimilarStories.jsx";
 import menuen from "./Section/menuen.jsx";
  
 import CustomInput from "components/CustomInput/CustomInput.jsx";
@@ -85,7 +86,7 @@ class ProfilePage extends React.Component {
           {...rest}
         />
         <Parallax
-          image={require("assets/img/examples/card-project6.jpg")}
+          image={require("assets/img/examples/card-project1.jpg")}
           filter="dark"
           className={classes.parallax}
         />
@@ -284,10 +285,13 @@ for the support of young people and local children giving biblical teaching,
               />
            
             </div>
+              
 
             <Clearfix />
           </div>
+          
         </div>
+        <SectionSimilarStories/> 
         <SectionFooter/> 
         
       </div>
