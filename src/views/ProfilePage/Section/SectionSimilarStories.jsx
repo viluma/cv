@@ -34,7 +34,7 @@ function SectionSimilarStories({ ...props }) {
         <GridContainer>
           <GridItem md={12}>
             <h2 className={classes.title + " " + classes.textCenter}>
-              Works
+              Work
             </h2>
             <br />
             <GridContainer>
