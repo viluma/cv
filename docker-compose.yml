@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  viluma:
+    container_name: cv
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/cv'
+      - '/cv/node_modules'
+    ports:
+      - '3003:3000'
+    environment:
+      - NODE_ENV=development
+    command: yarn start
