@@ -51,7 +51,7 @@ const SectionFooter = props => {
                   <ListItem className={classes.inlineBlock}>
                     
                    
-                      vivianseerup@gmail.com
+                      vilumatech@gmail.com
                   
                   </ListItem>
                   <ListItem className={classes.inlineBlock}>
