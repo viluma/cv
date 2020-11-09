@@ -224,6 +224,17 @@ class ProfilePage extends React.Component {
                             <strong>EMPLOYMENT HISTORY</strong>
                           </h4>
                           <p>
+                          <strong>
+                              {" "}
+                              Soundtracktor| UX / back-end Intern
+                              2015 – DEC 2015{" "}
+                            </strong>
+                            <br />
+                            internship at Soundtracktor, working as back-end.
+                            | Docker | graphql | Django.{" "}
+                          </p>
+                          <p>
+                            
                             {" "}
                             <strong>
                               International Airport of Beira | Technician
@@ -308,13 +319,19 @@ class ProfilePage extends React.Component {
                                 color="info"
                                 value={50}
                               />
-                              <h5>Laravel</h5>
+                              <h5>Django</h5>
                               <CustomLinearProgress
                                 variant="determinate"
                                 color="info"
                                 value={30}
                               />
                               <h5>HTML</h5>
+                              <CustomLinearProgress
+                                variant="determinate"
+                                color="info"
+                                value={60}
+                              />
+                              <h5>Laravel</h5>
                               <CustomLinearProgress
                                 variant="determinate"
                                 color="info"

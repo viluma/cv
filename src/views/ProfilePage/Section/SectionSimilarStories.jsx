@@ -54,17 +54,16 @@ function SectionSimilarStories({ ...props }) {
                   </CardHeader>
                   <CardBody>
                     <Info>
-                      <h6>AfricaInCopenhagen</h6>
+                      <h6>JupiterChild</h6>
                     </Info>
                     <h4 className={classes.cardTitle}>
-                      <a href="http://africaincopenhagen.com/">
+                      <a href="https://jupiterchildart.herokuapp.com/">
                         Touristic blog
                       </a>
                     </h4>
                     <p className={classes.description}>
-                      AfricaInCopenhagen offers a guide to find african's services and culture in copenhagen.
-                       Blog application built with wordpress .
-                      <a href="http://africaincopenhagen.com/"> See Website</a>
+                      JupiterChild it's an artist website build with Django and bootstrap.
+                      <a href="https://jupiterchildart.herokuapp.com/"> See Website</a>
                     </p>
                   </CardBody>
                 </Card>
