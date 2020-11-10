@@ -12,5 +12,5 @@ COPY public $APP/public
 COPY .env $APP/.env
 
 
-RUN yarn
+RUN yarn install
 RUN yarn build
